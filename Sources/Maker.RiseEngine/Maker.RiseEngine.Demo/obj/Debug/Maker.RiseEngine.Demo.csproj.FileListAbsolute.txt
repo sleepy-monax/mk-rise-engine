@@ -1,0 +1,14 @@
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Assets\image.png
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Maker.RiseEngine.Demo.exe.config
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Maker.RiseEngine.Demo.exe
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Maker.RiseEngine.Demo.pdb
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Maker.RiseEngine.dll
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\OpenTK.dll
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Maker.RiseEngine.pdb
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Maker.RiseEngine.dll.config
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\OpenTK.xml
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\obj\Debug\Maker.RiseEngine.Demo.csprojResolveAssemblyReference.cache
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\obj\Debug\Maker.RiseEngine.Demo.exe
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\obj\Debug\Maker.RiseEngine.Demo.pdb
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Assets\Shaders\FragmentShader.frag.glsl
+D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine.Demo\bin\Debug\Assets\Shaders\VertexShader.vert.glsl

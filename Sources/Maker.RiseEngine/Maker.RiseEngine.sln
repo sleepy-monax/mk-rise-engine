@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maker.RiseEngine", "Maker.RiseEngine\Maker.RiseEngine.csproj", "{16B4AD54-0998-44B7-9E25-66A13033EC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maker.RiseEngine.Demo", "Maker.RiseEngine.Demo\Maker.RiseEngine.Demo.csproj", "{9315AA4F-DEC0-42E9-AADE-2D6D5B7DD144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16B4AD54-0998-44B7-9E25-66A13033EC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B4AD54-0998-44B7-9E25-66A13033EC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B4AD54-0998-44B7-9E25-66A13033EC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B4AD54-0998-44B7-9E25-66A13033EC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9315AA4F-DEC0-42E9-AADE-2D6D5B7DD144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9315AA4F-DEC0-42E9-AADE-2D6D5B7DD144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9315AA4F-DEC0-42E9-AADE-2D6D5B7DD144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9315AA4F-DEC0-42E9-AADE-2D6D5B7DD144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
