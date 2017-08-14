@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BC62B78-A585-4608-ADDE-25464E58F341}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Maker.Rise</RootNamespace>
+    <AssemblyName>Maker.Rise.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NAudio, Version=1.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.1.8.1\lib\net35\NAudio.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLua">
+      <HintPath>..\packages\NLua\net45\NLua.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=3.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.3.0.0-pre\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=3.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.GLControl.3.0.0-pre\lib\net20\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Framework\Audio\AudioManager.cs" />
+    <Compile Include="Framework\Audio\AudioSource.cs" />
+    <Compile Include="Framework\Debugger.cs" />
+    <Compile Include="Framework\Engine.cs" />
+    <Compile Include="Framework\Game.cs" />
+    <Compile Include="Framework\Graphics\Batching\RenderBatch.cs" />
+    <Compile Include="Framework\Graphics\Color3.cs" />
+    <Compile Include="Framework\Input\KeyboardKey.cs" />
+    <Compile Include="Framework\Primitives\HeightMap.cs" />
+    <Compile Include="Framework\Primitives\ModelFactorie.cs" />
+    <Compile Include="Framework\Ressources\IRessource.cs" />
+    <Compile Include="Framework\Ressources\RessourcePool.cs" />
+    <Compile Include="Framework\Scenes\Camera\SkyBox.cs" />
+    <Compile Include="Framework\Scenes\Camera\StaticCamera.cs" />
+    <Compile Include="Framework\Graphics\Color4.cs" />
+    <Compile Include="Framework\GameHost.cs" />
+    <Compile Include="Framework\Graphics\Material.cs" />
+    <Compile Include="Framework\Graphics\Models\Model.cs" />
+    <Compile Include="Framework\Graphics\Models\ModelImporter.cs" />
+    <Compile Include="Framework\Graphics\Models\Transform.cs" />
+    <Compile Include="Framework\Graphics\Shaders\ShaderProgram.cs" />
+    <Compile Include="Framework\Graphics\Shaders\VaoAttribute.cs" />
+    <Compile Include="Framework\EngineComponent.cs" />
+    <Compile Include="Framework\Graphics\Models\Vao.cs" />
+    <Compile Include="Framework\IDrawable.cs" />
+    <Compile Include="Framework\Input\InputManager.cs" />
+    <Compile Include="Framework\Input\KeyBinding.cs" />
+    <Compile Include="Framework\IUpdateable.cs" />
+    <Compile Include="Framework\Primitives\Point3D.cs" />
+    <Compile Include="Framework\Primitives\Point2D.cs" />
+    <Compile Include="Framework\Primitives\Rectangle.cs" />
+    <Compile Include="Framework\Graphics\Models\Vertex.cs" />
+    <Compile Include="Framework\Scenes\Terrain.cs" />
+    <Compile Include="Framework\Texture\Font.cs" />
+    <Compile Include="Framework\Scenes\Entity.cs" />
+    <Compile Include="Framework\Scenes\Camera\OrbitalCamera.cs" />
+    <Compile Include="Framework\Scenes\Fog.cs" />
+    <Compile Include="Framework\Scenes\LightSource.cs" />
+    <Compile Include="Framework\Scenes\Scene.cs" />
+    <Compile Include="Framework\Scenes\SkyBox.cs" />
+    <Compile Include="Framework\Scenes\Sun.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\Texture\TextureManager.cs" />
+    <Compile Include="Framework\Audio\AudioBuffer.cs" />
+    <Compile Include="Framework\Texture\Texture2D.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="meta\App.config" />
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\BaseMaterial.frag" />
+    <None Include="Resources\BaseMaterial.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
