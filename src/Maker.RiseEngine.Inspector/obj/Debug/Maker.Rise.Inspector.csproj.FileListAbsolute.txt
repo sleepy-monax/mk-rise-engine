@@ -1,0 +1,36 @@
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.dll.config
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.dll
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.pdb
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csprojResolveAssemblyReference.cache
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.InspectorUI.resources
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.Properties.Resources.resources
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csproj.GenerateResource.Cache
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.dll
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.pdb
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.dll
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.GLControl.dll
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.dll
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\NAudio.dll
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.pdb
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.dll.config
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.GLControl.xml
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.xml
+D:\Bureau\Maker.Love.Framework\Maker.RiseEngine.Inspector\bin\Debug\NAudio.xml
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.dll.config
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.dll
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.pdb
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.dll
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.GLControl.dll
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.dll
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\NAudio.dll
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.pdb
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.dll.config
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.GLControl.xml
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.xml
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\bin\Debug\NAudio.xml
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csprojResolveAssemblyReference.cache
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.InspectorUI.resources
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.Properties.Resources.resources
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csproj.GenerateResource.Cache
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.dll
+D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.pdb
