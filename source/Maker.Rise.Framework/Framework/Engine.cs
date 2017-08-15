@@ -1,9 +1,8 @@
 ﻿using Maker.Rise.Framework.Audio;
 using Maker.Rise.Framework.Graphics;
-using Maker.Rise.Framework.Graphics.Models;
 using Maker.Rise.Framework.Input;
 using Maker.Rise.Framework.Primitives;
-using Maker.Rise.Framework.Texture;
+using Maker.Rise.Framework.Ressource;
 using System.Collections.Generic;
 
 namespace Maker.Rise.Framework
@@ -38,6 +37,7 @@ namespace Maker.Rise.Framework
         #region ComponentManager
         public void AddComponent(EngineComponent component)
         {
+            Debugger.WriteLog($"Component: '{component.GetType().Name}' added.", LogType.Info, nameof(Engine));
             Components.Add(component);
             component.Engine = this;
             component.Load();
@@ -64,15 +64,16 @@ namespace Maker.Rise.Framework
 
         public void Load()
         {
+            Debugger.WriteLog($"Loading...", LogType.Info, nameof(Engine));
             GraphicDevice.SetBufferSize(new Point2D(800, 600));
-            AddComponent(new TextureImporter());
+            AddComponent(new RessourceManager());
             AddComponent(new AudioManager());
-            AddComponent(new ModelImporter());
             AddComponent(new InputManager(GraphicDevice));
 
             Game.Engine = this;
             Game.Load();
             GraphicDevice.SetTitle(Game.Name);
+            Debugger.WriteLog($"Entering Game Loop!", LogType.Info, nameof(Engine));
         }
 
         public void Update(float deltaTime)
@@ -95,6 +96,7 @@ namespace Maker.Rise.Framework
 
         public void Destroy()
         {
+            Debugger.WriteLog($"Stopping...", LogType.Info, nameof(Engine));
             foreach (EngineComponent i in Components) i.Destroy();
 
             Game.Unload();

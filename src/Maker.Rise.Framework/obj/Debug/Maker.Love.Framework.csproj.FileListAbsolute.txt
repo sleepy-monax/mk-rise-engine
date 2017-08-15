@@ -1,9 +1,0 @@
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\Maker.Love.Framework.exe.config
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\Maker.Love.Framework.exe
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\Maker.Love.Framework.pdb
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\NAudio.dll
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\OpenTK.dll
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\NAudio.xml
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\bin\Debug\OpenTK.xml
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\obj\Debug\Maker.Love.Framework.exe
-d:\documents\visual studio 2017\Projects\Maker.Love.Framework\Maker.Love.Framework\obj\Debug\Maker.Love.Framework.pdb

@@ -1,6 +1,6 @@
 ﻿#version 400 core
 
-in vec2 pass_texture_coordinats;
+in vec2 pass_texture_coordinates;
 in vec3 pass_surface_normal;
 in vec3 to_light_vector;
 in vec3 to_camera_vector;
@@ -38,7 +38,7 @@ void main(void)
     vec3 specular_light = specular_factor * material_reflectivity * sun_color;
 
     // Texture color -----------------------------------------------------------
-    vec4 textureColor = texture(textureSampler, pass_texture_coordinats);
+    vec4 textureColor = texture(textureSampler, pass_texture_coordinates);
 
     if (textureColor.a < 0.5 && material_transparency)
     {

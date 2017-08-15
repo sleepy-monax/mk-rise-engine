@@ -1,0 +1,19 @@
+{
+	"VertexShaderName" : "material.vert",
+	"FragmentShaderName" : "material.frag",
+	"VertexArrayAttributBinding" : 
+	[
+		{
+			"UniformName" : "position",
+			"Index" : 0
+		},
+		{
+			"UniformName" : "texture_coordinates",
+			"Index" : 1
+		},
+		{
+			"UniformName" : "normals",
+			"Index" : 2
+		}
+	]
+}

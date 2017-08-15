@@ -1,4 +1,6 @@
-﻿using Maker.Rise.Framework.Scenes;
+﻿using Maker.Rise.Framework;
+using Maker.Rise.Framework.Ressource;
+using Maker.Rise.Framework.Scenes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,11 +16,13 @@ namespace Maker.Rise.Inspector
     public partial class InspectorUI : Form
     {
         public Scene Scene;
+        public Engine Engine;
 
-        public InspectorUI(Scene scene)
+        public InspectorUI(Engine engine, Scene scene)
         {
             InitializeComponent();
             Scene = scene;
+            Engine = engine;
         }
 
         float divisor = 1000f;
@@ -32,6 +36,8 @@ namespace Maker.Rise.Inspector
 
             // Scene ----------------------------------------------------------
             SceneBrightness.Value = (int)(Scene.brightness * 100);
+
+            listBoxRessources.Items.AddRange(Engine.GetComponent<RessourceManager>().ManagedRessources.Keys.ToArray());
         }
 
         public void ShowInspector()
@@ -57,6 +63,11 @@ namespace Maker.Rise.Inspector
         private void SceneBrightness_Scroll(object sender, EventArgs e)
         {
             Scene.brightness = SceneBrightness.Value / 100f;
+        }
+
+        private void listBoxRessources_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            propertyGrid1.SelectedObject = Engine.GetComponent<RessourceManager>().ManagedRessources[listBoxRessources.Text];
         }
     }
 }

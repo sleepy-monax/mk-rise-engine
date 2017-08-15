@@ -1,8 +1,0 @@
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\bin\Debug\Maker.RiseEngine.dll.config
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\bin\Debug\Maker.RiseEngine.dll
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\bin\Debug\Maker.RiseEngine.pdb
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\bin\Debug\OpenTK.dll
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\bin\Debug\OpenTK.xml
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\obj\Debug\Maker.RiseEngine.dll
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\obj\Debug\Maker.RiseEngine.pdb
-D:\Bureau\Rise\Sources\Maker.RiseEngine\Maker.RiseEngine\obj\Debug\Maker.RiseEngine.csprojResolveAssemblyReference.cache

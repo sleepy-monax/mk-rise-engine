@@ -46,3 +46,20 @@ D:\Bureau\Maker Rise\Maker.Rise.Framework\obj\Debug\Maker.Rise.Properties.Resour
 D:\Bureau\Maker Rise\Maker.Rise.Framework\obj\Debug\Maker.Rise.Framework.csproj.GenerateResource.Cache
 D:\Bureau\Maker Rise\Maker.Rise.Framework\obj\Debug\Maker.Rise.Framework.dll
 D:\Bureau\Maker Rise\Maker.Rise.Framework\obj\Debug\Maker.Rise.Framework.pdb
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\Maker.Rise.Framework.dll.config
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\Maker.Rise.Framework.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\Maker.Rise.Framework.pdb
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\NAudio.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\NLua.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\OpenTK.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\OpenTK.GLControl.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\KopiLua.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\NAudio.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\OpenTK.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\OpenTK.GLControl.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\obj\Debug\Maker.Rise.Properties.Resources.resources
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\obj\Debug\Maker.Rise.Framework.csproj.GenerateResource.Cache
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\obj\Debug\Maker.Rise.Framework.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\obj\Debug\Maker.Rise.Framework.pdb
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\Maker.Rise.Framework.dll.CodeAnalysisLog.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\Maker.Rise.Framework.dll.lastcodeanalysissucceeded

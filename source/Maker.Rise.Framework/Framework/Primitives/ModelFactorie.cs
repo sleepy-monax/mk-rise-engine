@@ -1,4 +1,6 @@
-﻿using Maker.Rise.Framework.Graphics.Models;
+﻿using Maker.Rise.Framework.Maths;
+using Maker.Rise.Framework.Primitives.HeightMap;
+using Maker.Rise.Framework.Ressource.RessourceType;
 using OpenTK;
 using System;
 using System.Collections.Generic;
@@ -17,7 +19,7 @@ namespace Maker.Rise.Framework.Primitives
         /// <param name="vertexCount">Number of vertex per side.</param>
         /// <param name="textureRepeate">Number of texture repeate.</param>
         /// <returns>A flat plane.</returns>
-        public static Model GeneratePlane(float size, int vertexCount, int textureRepeate)
+        public static Model GeneratePlane(float size, int vertexCount, int textureRepeate, IHeightMap heightMap)
         {
 
             int count = vertexCount * vertexCount;
@@ -30,8 +32,9 @@ namespace Maker.Rise.Framework.Primitives
             {
                 for (int x = 0; x < vertexCount; x++)
                 {
-                    vertecies[vertexPointer] = new Vertex(new Vector3(x / ((float)vertexCount - 1) * size, 0, y / ((float)vertexCount - 1) * size),
-                                                          new Vector3(0, 1, 0),
+                    Vector2 vertexPosition = new Vector2((size / (vertexCount - 1)) * x, (size / (vertexCount - 1)) * y);
+                    vertecies[vertexPointer] = new Vertex(new Vector3(vertexPosition.X, heightMap.GetHeight(x / (float)vertexCount, y / (float)vertexCount), vertexPosition.Y),
+                                                          heightMap.GetNormal(x / (float)vertexCount, y / (float)vertexCount),
                                                           new Point2D(x / ((float)vertexCount - 1) * textureRepeate, (float)y / ((float)vertexCount - 1) * textureRepeate));
                     vertexPointer++;
                 }

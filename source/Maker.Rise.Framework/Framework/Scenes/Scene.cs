@@ -1,6 +1,7 @@
 ﻿using Maker.Rise.Framework.Graphics;
-using Maker.Rise.Framework.Graphics.Shaders;
 using Maker.Rise.Framework.Primitives;
+using Maker.Rise.Framework.Ressource.RessourceType;
+using Maker.Rise.Framework.Scenes.Camera;
 using System;
 using System.Collections.Generic;
 using System.Linq;

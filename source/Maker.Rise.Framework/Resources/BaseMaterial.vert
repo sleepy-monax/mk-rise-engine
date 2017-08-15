@@ -2,11 +2,11 @@
 
 // Mesh
 in vec3 position;
-in vec2 texture_coordinats;
+in vec2 texture_coordinates;
 in vec3 normals;
 
 // Pass to fragment shaders
-out vec2 pass_texture_coordinats;
+out vec2 pass_texture_coordinates;
 out vec3 pass_surface_normal;
 
 // Fog.
@@ -34,7 +34,7 @@ void main(void)
     vec4 world_position = entity_transform * vec4(position, 1.0);
     vec4 position_from_camera = view_matrix * world_position;
 
-    pass_texture_coordinats = texture_coordinats;
+    pass_texture_coordinates = texture_coordinates;
     
     if (material_overide_normals)
     {

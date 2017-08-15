@@ -34,3 +34,21 @@ D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.P
 D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csproj.GenerateResource.Cache
 D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.dll
 D:\Bureau\Maker Rise\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.pdb
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.dll.config
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Inspector.pdb
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.GLControl.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\NAudio.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.pdb
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\Maker.Rise.Framework.dll.config
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.GLControl.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\OpenTK.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\bin\Debug\NAudio.xml
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csprojResolveAssemblyReference.cache
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.InspectorUI.resources
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.Properties.Resources.resources
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.csproj.GenerateResource.Cache
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.dll
+D:\Documents\Projet\mk-rise-engine\source\Maker.RiseEngine.Inspector\obj\Debug\Maker.Rise.Inspector.pdb

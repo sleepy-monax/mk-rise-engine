@@ -1,10 +1,5 @@
 ﻿using Maker.Rise.Framework.Graphics;
-using Maker.Rise.Framework.Graphics.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Maker.Rise.Framework.Ressource.RessourceType;
 
 namespace Maker.Rise.Framework.Scenes
 {

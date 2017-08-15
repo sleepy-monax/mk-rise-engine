@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\bin\Debug\Maker.Rise.Framework.dll">
+   <Modules>
+    <Module Name="maker.rise.framework.dll">
+     <Namespaces>
+      <Namespace Name="Maker.Rise.Framework">
+       <Types>
+        <Type Name="GameHost" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implémenter IDisposable sur 'GameHost' car il crée des membres des types IDisposable suivants : 'GameWindow'. Si 'GameHost' existait précédemment, le fait d'ajouter de nouveaux membres qui implémentent IDisposable pour ce type est considéré comme une modification avec rupture pour les utilisateurs existants.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Draw" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Déclarez le premier paramètre de 'Action' en tant qu'objet nommé 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Déclarez le second paramètre de 'Action' en tant que EventArgs, ou une instance d'un type qui étend EventArgs, nommée 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Load" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Déclarez le premier paramètre de 'Action' en tant qu'objet nommé 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Déclarez le second paramètre de 'Action' en tant que EventArgs, ou une instance d'un type qui étend EventArgs, nommée 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Unload" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Déclarez le premier paramètre de 'Action' en tant qu'objet nommé 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Déclarez le second paramètre de 'Action' en tant que EventArgs, ou une instance d'un type qui étend EventArgs, nommée 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error">Déclarez le premier paramètre de 'Action&lt;float&gt;' en tant qu'objet nommé 'sender'.</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error">Déclarez le second paramètre de 'Action&lt;float&gt;' en tant que EventArgs, ou une instance d'un type qui étend EventArgs, nommée 'e'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Maker.Rise.Framework.Audio">
+       <Types>
+        <Type Name="AudioManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implémenter IDisposable sur 'AudioManager' car il crée des membres des types IDisposable suivants : 'AudioContext'. Si 'AudioManager' existait précédemment, le fait d'ajouter de nouveaux membres qui implémentent IDisposable pour ce type est considéré comme une modification avec rupture pour les utilisateurs existants.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Maker.Rise.Framework.Ressource.RessourceType">
+       <Types>
+        <Type Name="ShaderProgram" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Maker.Rise.Framework.Ressource.IRessource.Name" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#Maker.Rise.Framework.Ressource.IRessource.get_Name()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\Framework\Ressource\RessourceType" File="ShaderProgram.cs" Line="33">Faites en sorte que 'ShaderProgram' soit de type sealed (une modification avec rupture si cette classe existait précédemment), implémentez la méthode non explicitement, ou implémentez une nouvelle méthode qui expose les fonctionnalités de 'IRessource.Name.get()' et qui est visible pour les classes dérivées.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#Maker.Rise.Framework.Ressource.IRessource.set_Name(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-08-15 20:41:59Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\Documents\Projet\mk-rise-engine\source\Maker.Rise.Framework\Framework\Ressource\RessourceType" File="ShaderProgram.cs" Line="33">Faites en sorte que 'ShaderProgram' soit de type sealed (une modification avec rupture si cette classe existait précédemment), implémentez la méthode non explicitement, ou implémentez une nouvelle méthode qui expose les fonctionnalités de 'IRessource.Name.set(string)' et qui est visible pour les classes dérivées.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Maker.Rise.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2017-08-15 20:41:59Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Évitez le recours à du code privé non appelé</Name>
+   <Description>Il existe du code non appelé qui n'est pas visible de l'extérieur et ne constitue pas un point d'entrée connu du runtime. Si cette violation provoque une erreur, signalez le problème à l'équipe Visual Studio Code Analysis.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009">
+   <Name>Déclarer les gestionnaires d'événements correctement</Name>
+   <Description>Par convention, les événements .NET possèdent deux paramètres qui spécifient l'émetteur d'événement et les données d'événement. Les signatures du gestionnaire d'événements doivent suivre ce format : void MyEventHandler(object sender, EventArgs e). Le paramètre 'sender' est toujours du type System.Object, même s'il est possible d'employer un type plus spécifique. Le paramètre 'e' est toujours du type System.EventArgs. Les événements qui ne fournissent pas de données d'événement doivent utiliser le type délégué System.EventHandler. Les gestionnaires d'événements retournent void afin qu'ils puissent envoyer chaque événement à plusieurs méthodes cibles. Les valeurs retournées par une cible sont perdues après le premier appel.</Description>
+   <Resolution Name="First">Déclarez le premier paramètre de {0} en tant qu'objet nommé 'sender'.</Resolution>
+   <Resolution Name="Second">Déclarez le second paramètre de {0} en tant que EventArgs, ou une instance d'un type qui étend EventArgs, nommée 'e'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182133.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Les méthodes d'interface doivent pouvoir être appelées par les types enfants</Name>
+   <Description>Les implémentations de méthodes explicites sont définies à l'aide de l'accessibilité Private. Les classes dérivées de classes dotées d'implémentations de méthodes explicites et qui choisissent de les déclarer à nouveau sur la classe ne pourront pas appeler l'implémentation de la classe de base sauf si la classe de base a fourni une autre méthode dotée de l'accessibilité appropriée. Lorsque vous remplacez une méthode de classe de base qui a été masquée par une implémentation d'interface explicite, pour appeler l'implémentation de la classe de base, une classe dérivée doit effectuer un cast du pointeur de base vers l'interface appropriée. Cependant, lors d'un appel via cette référence, l'implémentation de la classe dérivée sera réellement appelée, ce qui entraînera une récurrence et un dépassement de capacité de la pile final.</Description>
+   <Resolution Name="Default">Faites en sorte que {0} soit de type sealed (une modification avec rupture si cette classe existait précédemment), implémentez la méthode non explicitement, ou implémentez une nouvelle méthode qui expose les fonctionnalités de {1} et qui est visible pour les classes dérivées.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Les types qui possèdent des champs supprimables doivent être supprimables</Name>
+   <Description>Les types qui déclarent des membres supprimables doivent également implémenter IDisposable. Si le type ne possède aucune ressource non managée, n'implémentez pas de finaliseur sur celui-ci.</Description>
+   <Resolution Name="DependsOnFix">Implémenter IDisposable sur {0} car il crée des membres des types IDisposable suivants : {1}. Si {0} existait précédemment, le fait d'ajouter de nouveaux membres qui implémentent IDisposable pour ce type est considéré comme une modification avec rupture pour les utilisateurs existants.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Catégorie</String>
+  <String Key="Certainty">Certitude</String>
+  <String Key="CollapseAll">Réduire tout</String>
+  <String Key="CheckId">ID de contrôle</String>
+  <String Key="Error">Erreur</String>
+  <String Key="Errors">erreur(s)</String>
+  <String Key="ExpandAll">Développer tout</String>
+  <String Key="Help">Aide</String>
+  <String Key="Line">Ligne</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Emplacement non stocké dans le fichier Pdb]</String>
+  <String Key="Project">Projet</String>
+  <String Key="Resolution">Résolution</String>
+  <String Key="Rule">Règle</String>
+  <String Key="RuleFile">Fichier de règles</String>
+  <String Key="RuleDescription">Description de la règle</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">État</String>
+  <String Key="Target">Cible</String>
+  <String Key="Warning">Avertissement</String>
+  <String Key="Warnings">avertissement(s)</String>
+  <String Key="ReportTitle">Rapport d'analyse du code</String>
+ </Localized>
+</FxCopReport>

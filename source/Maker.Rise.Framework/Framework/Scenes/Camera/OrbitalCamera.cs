@@ -7,7 +7,7 @@ using Maker.Rise.Framework.Input;
 using Maker.Rise.Framework.Primitives;
 using OpenTK;
 
-namespace Maker.Rise.Framework.Scenes
+namespace Maker.Rise.Framework.Scenes.Camera
 {
     public class OrbitalCamera : StaticCamera
     {
